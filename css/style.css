@@ -1,0 +1,40 @@
+body {
+    height: 5000px;
+}
+
+#a1 {
+    width: 100%;
+    height: 20%;
+    background: blue;
+}
+
+#a2 {
+    width: 100%;
+    height: 20%;
+    background: black;
+}
+
+#a3 {
+    width: 100%;
+    height: 20%;
+    background: red;
+}
+
+.active {
+    background-color: darkgray !important;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background: yellow;
+}
+
+.curtain-in {
+    background: green !important;
+}
